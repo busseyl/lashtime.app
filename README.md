@@ -1,4 +1,4 @@
-# app
+# LashTime PWA
 
 ## Project setup
 ```
