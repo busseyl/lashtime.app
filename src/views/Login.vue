@@ -106,7 +106,7 @@ export default {
       if (e.key === 'Enter') this.passwordSignIn()
     },
     passwordSignIn () {
-      console.log(`Processing login: ${this.identity} | password: ${this.password}`)
+      console.log(`Processing login: ${this.identity}`)
       this.loading = true
       this.resetResponse()
       return fetch(`${this.$api.url}/auth`, {
